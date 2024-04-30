@@ -221,7 +221,7 @@ aside i:hover .ct{
         display: none;
     }
     aside i:hover .ct{
-        display: flex;
+        display: none;
         position:absolute;
         background-color: rgb(41, 41, 41);
         justify-content: center;
@@ -279,7 +279,7 @@ aside i:hover .ct{
         display: none;
     }
     aside i:hover .ct{
-        display: flex;
+        display: none;
         position:absolute;
         background-color: rgb(41, 41, 41);
         justify-content: center;
@@ -343,7 +343,7 @@ aside i:hover .ct{
         display: none;
     }
     aside i:hover .ct{
-        display: flex;
+        display: none;
         position:absolute;
         background-color: rgb(41, 41, 41);
         justify-content: center;
