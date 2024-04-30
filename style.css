@@ -29,6 +29,7 @@ body{
     background-color: #003D5B;
     min-height: 100vh;
     transition: all 300ms ease-in-out;
+    position: relative;
 }
 aside i{
     display: flex;
@@ -36,6 +37,7 @@ aside i{
     cursor: pointer;
     transition: all 300ms ease-in-out;
     color: white;
+    transition: all 300ms ease-in-out;
 }
 aside i:hover{
     font-size: 21px;
@@ -123,6 +125,32 @@ i p{
     max-width: 300px;
     min-width: 100px;
 }
+i{
+    position: relative;
+}
+aside i .ct{
+    display: none;
+    position:absolute;
+    background-color: rgb(41, 41, 41);
+    transition: all 300ms ease-in-out;
+}
+
+aside i:hover .ct{
+    display: flex;
+    position:absolute;
+    background-color: rgb(41, 41, 41);
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    color: white;
+    padding: 10px;
+    width: 110px;
+    height: fit-content;
+    font-weight: lighter;
+    font-size: small;
+    border-radius: 10px;
+    left:20px;
+}
 @media (min-width:803px){
     .search-conteiner{
         display: flex;
@@ -151,4 +179,187 @@ i p{
         height: fit-content;
         max-width: 300px;
     } 
+}
+@media (max-width:575px){
+    .logo-home{
+        width: 58%;
+        min-width: 200px;
+        height: fit-content;
+        max-width: 300px;
+    } 
+    body{
+        display: grid;
+        grid-template-rows: .1fr 1fr;
+        grid-template-columns: 1fr;
+        grid-gap: 10px;
+    
+    }
+    .side-bar{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 100vw;
+        background-color: #003D5B;
+        min-height: 4rem;
+        transition: all 300ms ease-in-out;
+        position: relative;
+    }
+    .slideLeft{
+        width: 100vw;
+    }
+    aside p{
+        display: none;
+    }
+    .open{
+        display: none;
+    }
+    .closed{
+        display: none;
+    }
+    .opened{
+        display: none;
+    }
+    aside i:hover .ct{
+        display: flex;
+        position:absolute;
+        background-color: rgb(41, 41, 41);
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        color: white;
+        padding: 10px;
+        width: 110px;
+        height: fit-content;
+        font-weight: lighter;
+        font-size: small;
+        border-radius: 10px;
+        left:20px;
+        top:40px;
+    }
+}
+@media (max-width:499px){
+    .logo-home{
+        width: 58%;
+        min-width: 200px;
+        height: fit-content;
+        max-width: 300px;
+    } 
+    body{
+        display: grid;
+        grid-template-rows: .1fr 1fr;
+        grid-template-columns: 1fr;
+        grid-gap: 10px;
+    
+    }
+    .side-bar{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 100vw;
+        background-color: #003D5B;
+        min-height: 4rem;
+        transition: all 300ms ease-in-out;
+        position: relative;
+    }
+    .slideLeft{
+        width: 100vw;
+    }
+    aside p{
+        display: none;
+    }
+    .open{
+        display: none;
+    }
+    .closed{
+        display: none;
+    }
+    .opened{
+        display: none;
+    }
+    aside i:hover .ct{
+        display: flex;
+        position:absolute;
+        background-color: rgb(41, 41, 41);
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        color: white;
+        padding: 10px;
+        width: 110px;
+        height: fit-content;
+        font-weight: lighter;
+        font-size: small;
+        border-radius: 10px;
+        left:20px;
+        top:40px;
+    }
+    .delete-mobile{
+        display: none;
+    }
+}
+@media (max-width:320px){
+    .delete-s-screen{
+        display: none;
+    }
+    .logo-home{
+        width: 58%;
+        min-width: 200px;
+        height: fit-content;
+        max-width: 300px;
+    } 
+    body{
+        display: grid;
+        grid-template-rows: .1fr 1fr;
+        grid-template-columns: 1fr;
+        grid-gap: 10px;
+    
+    }
+    .side-bar{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 100vw;
+        background-color: #003D5B;
+        min-height: 4rem;
+        transition: all 300ms ease-in-out;
+        position: relative;
+    }
+    .slideLeft{
+        width: 100vw;
+    }
+    aside p{
+        display: none;
+    }
+    .open{
+        display: none;
+    }
+    .closed{
+        display: none;
+    }
+    .opened{
+        display: none;
+    }
+    aside i:hover .ct{
+        display: flex;
+        position:absolute;
+        background-color: rgb(41, 41, 41);
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        color: white;
+        padding: 10px;
+        width: 110px;
+        height: fit-content;
+        font-weight: lighter;
+        font-size: small;
+        border-radius: 10px;
+        left:20px;
+        top:40px;
+    }
+    .delete-mobile{
+        display: none;
+    }
 }
