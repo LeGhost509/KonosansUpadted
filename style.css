@@ -248,7 +248,7 @@ aside i:hover .ct{
     width: 77%;
     min-width: 50px;
     max-width: 700px;
-}
+    }
 }
 @media (max-width:499px){
     .logo-home{
@@ -321,7 +321,7 @@ aside i:hover .ct{
     width: 77%;
     min-width: 50px;
     max-width: 700px;
-}
+    }
 }
 @media (max-width:320px){
     .delete-s-screen{
@@ -397,5 +397,5 @@ aside i:hover .ct{
     width: 77%;
     min-width: 50px;
     max-width: 700px;
-}
+    }
 }
