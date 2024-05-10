@@ -63,30 +63,38 @@
                 <img src="svg/happy-face.png" alt="" class="intro-emoji">
                 <p>Hello! How can I help?</p>
             </div>
-            <video src="" class="background-video"  autoplay="true"></video>
+            <video  class="background-video"  autoplay="true"></video>
             <div class="grade-view">
                 <i class="bi bi-view-list"></i>
                 <i class="bi bi-play"></i>
                 <i class="bi bi-robot"></i>
             </div>
+            <div class="savedGenerated-videos hide">
+                <a href="" class="play-in-prompt-a"><i class="bi bi-file-earmark-play"></i><span>https://youtu.be/-T0MGehwWvE</span></a>
+            </div>
         </div>
         <form action="" class="prompt">
             <i class="bi bi-sliders"></i>
-            <input type="text" placeholder="Type in here">
+            <input class="prompt-submit" type="text" placeholder="Type in here">
             <i class="bi bi-mic-fill"></i>
             <div class="options hide">
+                <i class="bi bi-x-square-fill"></i>
                 <form action="">
-                    <input type="range" name="" id="acuracy">
-                    <input type="range" name="" id="fun">
-                    <input type="range" name="" id="details">
-                    <input type="range" name="" id="timespan">
-                    <input type="checkbox" id="">
-                    <input type="text">
-                    <input type="submit">
+                    <span>Acuracy<input type="range" name="" id="acuracy"></span>
+                    <span>Fun<input type="range" name="" id="fun"></span>
+                    <span>Details<input type="range" name="" id="details"></span>
+                    <span>Time<input type="number" max="4" name="" id="timespan" placeholder="video duration"></span>
+                    <span>Background music<input type="checkbox" id=""></span>
+                    <span>Topic<input type="text" class="texto" placeholder="Topic of the explanation"></span>
+                    <input type="submit" class="sending">
                 </form>
-                <div>
+                <div class="more-options">
                    <i class="bi bi-images"> Upload images</i>
-                   <i class="bi bi-images"> Verify on google </i>
+                   <i class="bi bi-google"> Verify on google </i>
+                </div>
+                <div class="pictureUpload hide">
+                    <input type="file" class="files hide">
+                    <i class="bi bi-cloud-arrow-up">Upload your picture</i>
                 </div>
             </div>
         </form>
